@@ -22,7 +22,7 @@ import PackageDescription
 var dependencies: [Package.Dependency] = [
     .package(url: "https://github.com/Kitura/LoggerAPI.git", from: "2.0.0"),
     .package(url: "https://github.com/Kitura/BlueSocket.git", from: "2.0.0"),
-    .package(url: "https://github.com/Kitura/BlueSSLService.git", from: "2.0.0")
+    .package(url: "https://github.com/Kitura/BlueSSLService.git", from: "2.4.2")
 ]
 
 var kituraNetDependencies: [Target.Dependency] = [
